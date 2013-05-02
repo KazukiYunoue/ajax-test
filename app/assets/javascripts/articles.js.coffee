@@ -5,4 +5,4 @@
 $ ->
   $(".reload_articles").click ->
     $("div.articles").append ->
-      $("<div class='articles'>Loarding...</div>").fadeIn("slow")
+      $("<div class='articles'>Loading...</div>").fadeIn("slow")
