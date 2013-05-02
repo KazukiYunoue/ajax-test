@@ -1,0 +1,8 @@
+<h1>Listing articles</h1>
+
+<%= render :partial => "index" %>
+<br />
+
+<%= link_to 'Reload', articles_path %> | 
+<%= link_to 'Reload(Ajax)', articles_path, :remote => true, :class => "reload_articles" %> | 
+<%= link_to 'New Article', new_article_path %>
